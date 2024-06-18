@@ -19,9 +19,6 @@ namespace CislaAPraceSNima
         // 0 - 255
         private byte MCisloByte = 255;
 
-
-
-
         // -32,768 - 32,767
         private short MCisloShort = 32_767;
 
@@ -52,14 +49,7 @@ namespace CislaAPraceSNima
 
         public Cisla()
         {
-            Point a = new Point(15,20);
-            Point b = new Point(560, 45);
 
-            double vysledk = DistanceBetweenTwoPoints(a, b);
-
-            DistanceBetweenTwoPoints(new Point(10, 20), new Point(30, 40));
-
-            Pythagoras(15, 20);
         }
 
 
