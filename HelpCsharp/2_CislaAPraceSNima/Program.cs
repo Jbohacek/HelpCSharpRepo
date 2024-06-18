@@ -56,32 +56,16 @@ namespace CislaAPraceSNima
 
         public double DistanceBetweenTwoPoints(Point a, Point b)
         {
-
             //d=√((xb – xa)² + (yb – ya)²).
-
-            double odecteni1 = Math.Pow(b.X - a.X,2);
-            double odecteni2 = Math.Pow(b.Y - a.Y,2);
-            
-            double secteni = odecteni1 + odecteni2;
-
-            double odmocnina = Math.Sqrt(secteni);
-
-            
-            return odmocnina;
+            return 0;
         }
 
         public double Pythagoras(double distanceA, double distanceB)
         {
             //a2 + b2 = c2
 
-            double a = Math.Pow(distanceA, 2);
-            double b = Math.Pow(distanceB, 2);
 
-            double secteni = a + b;
-
-            double vysledek = Math.Sqrt(secteni);
-
-            return vysledek;
+            return 0;
         }
 
 
