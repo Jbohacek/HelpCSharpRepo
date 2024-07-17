@@ -19,6 +19,9 @@ namespace CislaAPraceSNima
         // 0 - 255
         private byte MCisloByte = 255;
 
+
+
+
         // -32,768 - 32,767
         private short MCisloShort = 32_767;
 
@@ -38,10 +41,11 @@ namespace CislaAPraceSNima
         private ulong CisloULong = 18_446_744_073_709_551_615;
 
 
+
+
         private float CisloFloat = 100.00f;
 
         private double CisloDouble = 100.000000D;
-
 
         private decimal CisloDecimal = 156849.5498M;
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,18 +18,26 @@ namespace _3_PraceSeStringama
         
         Jen dvě čísla mezi sebou
 
-        Bonus: Ošetření při zadaní špatného čísla
+        Ošetření při zadaní špatného čísla
+
+        Desetinné číla
+
+        Opravil 3.9 + 4.1 = 8.000000001
 
 
         45 + 25
 
         45
-        + - * /
+        + - * / ³ ²
+
         25
 
-        
-
+    
 
         */
+
+
+        
+    
     }
 }

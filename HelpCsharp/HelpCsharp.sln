@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_PraceSeStringama", "3_Pra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_CislaAPraceSNima", "2_CislaAPraceSNima\2_CislaAPraceSNima.csproj", "{6D4B8D48-41F3-4644-ABDF-10841132179C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Typy", "4_Typy\4_Typy.csproj", "{E6375FB3-F1CE-45AB-A746-D424EDF4E5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_PokemonProjekt", "5_PokemonProjekt\5_PokemonProjekt.csproj", "{4A6441CD-C527-43EF-9386-913386A314FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{6D4B8D48-41F3-4644-ABDF-10841132179C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D4B8D48-41F3-4644-ABDF-10841132179C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D4B8D48-41F3-4644-ABDF-10841132179C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6375FB3-F1CE-45AB-A746-D424EDF4E5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6375FB3-F1CE-45AB-A746-D424EDF4E5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6375FB3-F1CE-45AB-A746-D424EDF4E5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6375FB3-F1CE-45AB-A746-D424EDF4E5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6441CD-C527-43EF-9386-913386A314FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6441CD-C527-43EF-9386-913386A314FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6441CD-C527-43EF-9386-913386A314FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6441CD-C527-43EF-9386-913386A314FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

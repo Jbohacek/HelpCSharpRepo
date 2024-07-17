@@ -1,4 +1,6 @@
-﻿namespace _3_PraceSeStringama
+﻿using System.Text;
+
+namespace _3_PraceSeStringama
 {
     internal class Program
     {
@@ -83,6 +85,50 @@
             string malaPismena = pozdrav.ToLower();
             Console.WriteLine("Velká písmena: " + velkaPismena);
             Console.WriteLine("Malá písmena: " + malaPismena);
+
+
+
+
+
+
+
+
+
+
+
+
+
+            string nastevnost = "Aktuální počet návštěvníků: 40% obsazenost: | 50 (Bazén) | 120 (Aquapark)";
+
+
+
+            string pocetBazen = nastevnost.Substring(45, 12);
+
+            int poziceAquapark = nastevnost.IndexOf("(Aquapark)");
+
+            string pocetAquapark = nastevnost.Substring(poziceAquapark - 4, "120 (Aquapark)".Length);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         }
     }
