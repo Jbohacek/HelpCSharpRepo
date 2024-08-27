@@ -31,7 +31,7 @@ namespace _5_PokemonProjekt
             // Tohle získá všechna jména pokemonu, podle druhu
             // Bere to z internetu
             // Nešahat dovnitř složky "PokemonAssets"
-            string pokemoni = PokemonMenu.GetByType(PokemonMenu.PokemonType.Fire);
+            string pokemoni = PokemonMenu.GetByType(PokemonMenu.PokemonType.Ghost);
             Console.WriteLine(pokemoni);
 
             // Tohle získá všechny typy pokémonů, co jsou

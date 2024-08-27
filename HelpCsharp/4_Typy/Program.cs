@@ -50,10 +50,11 @@
 
             
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
+            var h = new DirectoryInfo("P:\\!PixelArt\\Učení\\pacman");
 
-
+            var g = h.GetFiles();
         }
 
         public class plosina
@@ -64,7 +65,7 @@
             public override string ToString()
             {
 
-                Thread.Sleep(1);
+                //Thread.Sleep(1);
                 return $"x = {x}\ny = {y}\n-------------";
             }
         }
