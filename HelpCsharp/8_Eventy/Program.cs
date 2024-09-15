@@ -4,14 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Youtube a = new Youtube();
-            Divak b = new Divak();
-            SkupinaDivaku c = new SkupinaDivaku();
+            //Youtube a = new Youtube();
+            //Divak b = new Divak();
+            //SkupinaDivaku c = new SkupinaDivaku();
 
-            a.MojeUdalost += b.DostatOznameni;
-            a.MojeUdalost += c.DostaliViceOznameni;
+            //a.MojeUdalost += b.DostatOznameni;
+            //a.MojeUdalost += c.DostaliViceOznameni;
 
-            a.SpustitEvent();
+            //a.SpustitEvent();
+
+  
 
         }
     }

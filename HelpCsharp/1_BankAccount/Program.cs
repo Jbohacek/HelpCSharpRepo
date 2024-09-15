@@ -5,26 +5,26 @@
         static void Main(string[] args)
         {
 
-            BankAccount account = new BankAccount();
+            //BankAccount account = new BankAccount();
 
-            // Opravit: Nejde vložit halíře
-            account.SetBalance(15.457);
+            //// Opravit: Nejde vložit halíře
+            //account.SetBalance(15.457);
 
-            // Opravit: Nevypisuje CZK na konci :C
-            Console.WriteLine(account.GetBalance());
+            //// Opravit: Nevypisuje CZK na konci :C
+            //Console.WriteLine(account.GetBalance());
 
-            // Opravit: Nemužu si vzít půjčku jakou chci
-            account.GetLoan(45688);
+            //// Opravit: Nemužu si vzít půjčku jakou chci
+            //account.GetLoan(45688);
 
-            // Opravit: Splácím do nekonečna :C
-            account.PayOffLoan(456888);
-            account.PayOffLoan(456888);
+            //// Opravit: Splácím do nekonečna :C
+            //account.PayOffLoan(456888);
+            //account.PayOffLoan(456888);
 
-            // Přidat: Vypsat jak moc jsi v dluhu :)
+            //// Přidat: Vypsat jak moc jsi v dluhu :)
 
-            // Opravit: Nemužu nastavit Majitele :C
-            // Přidat: První písmeno by se automaticky mělo nastavit na velké písmeno vojta > Vojta
-            account.Owner = "vojta";
+            //// Opravit: Nemužu nastavit Majitele :C
+            //// Přidat: První písmeno by se automaticky mělo nastavit na velké písmeno vojta > Vojta
+            //account.Owner = "vojta";
 
         }
     }
@@ -53,11 +53,6 @@
         public void SetBalance(int value)
         {
             Balance = value;
-        }
-
-        public string GetOwner()
-        {
-            return Owner;
         }
 
 

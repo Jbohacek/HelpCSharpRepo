@@ -1,0 +1,20 @@
+﻿@model User
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>@Model.name</h2>
+
+<h2>@Model.vek</h2>
+
+@if (Model.vek > 18)
+{
+    <p>Je plnolety</p>
+
+}
+
+<h2>@Model.zije</h2>
+
+<h2>@ViewBag.prijmeni</h2>
