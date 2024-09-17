@@ -38,7 +38,7 @@
             // KresliciBox
             // 
             KresliciBox.BorderStyle = BorderStyle.FixedSingle;
-            KresliciBox.Location = new Point(189, 47);
+            KresliciBox.Location = new Point(158, 71);
             KresliciBox.Name = "KresliciBox";
             KresliciBox.Size = new Size(595, 564);
             KresliciBox.TabIndex = 0;

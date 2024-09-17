@@ -20,8 +20,6 @@ namespace CislaAPraceSNima
         private byte MCisloByte = 255;
 
 
-
-
         // -32,768 - 32,767
         private short MCisloShort = 32_767;
 
@@ -47,15 +45,19 @@ namespace CislaAPraceSNima
 
         private double CisloDouble = 100.000000D;
 
-        private decimal CisloDecimal = 156849.5498M;
+        private decimal CisloDecimal = 156849.5498m;
 
         // 1568495498 * 10na-4
 
         public Cisla()
         {
+            cisla[0] = 5;
 
         }
 
+
+        private int[] cisla = new int[4];
+        
 
 
         public double DistanceBetweenTwoPoints(Point a, Point b)

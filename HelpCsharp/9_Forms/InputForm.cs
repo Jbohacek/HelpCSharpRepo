@@ -13,6 +13,12 @@ namespace _9_Forms
 {
     public partial class InputForm : Form
     {
+        public TextBox ProsimVyplnit;
+
+
+
+
+
         public InputForm()
         {
             InitializeComponent();
@@ -65,7 +71,7 @@ namespace _9_Forms
             final = a;
 
             this.DialogResult = DialogResult.OK;
-            users.Add(final);
+            this.ProsimVyplnit.Text = final.Name;
             this.Close();
 
         }
